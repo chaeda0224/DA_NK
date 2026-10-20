@@ -2,7 +2,7 @@
   "name": "da-nk-core",
   "version": "0.1.1",
   "private": true,
-  "description": "Local Korean document search and reviewed OCR annotation export tools.",
+  "description": "Tools for OCR of Rodong Sinmun newspaper articles; this alpha provides reviewed annotation export, document models, and local search.",
   "license": "MIT",
   "type": "module",
   "engines": {
