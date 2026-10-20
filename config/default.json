@@ -1,0 +1,6 @@
+{
+  "http_port": 4173,
+  "paths": {
+    "workspace": "workspace"
+  }
+}
