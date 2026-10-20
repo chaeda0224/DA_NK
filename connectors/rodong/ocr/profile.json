@@ -1,0 +1,26 @@
+{
+  "profile_id": "rodong_newspaper",
+  "display_name": "로동신문",
+  "status": "active",
+  "document_family": "newspaper",
+  "reading_order": "columns_left_to_right",
+  "article_id_template": "rodong-{date}-p{page:02d}-a{sequence:03d}",
+  "annotation_classes": [
+    "article",
+    "title",
+    "subtitle",
+    "photo",
+    "byline"
+  ],
+  "normalization": {
+    "ascii_digits": true,
+    "collapse_digit_spaces": true,
+    "paragraph_separator": "blank_line"
+  },
+  "review_policy": {
+    "article_boundary": "human_required",
+    "headline_hierarchy": "human_required",
+    "publish_requires_review": true
+  },
+  "citation_style": "page_reference"
+}
