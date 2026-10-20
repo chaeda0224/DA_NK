@@ -1,6 +1,6 @@
 {
   "name": "da-nk-core",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Local Korean document search and reviewed OCR annotation export tools.",
   "license": "MIT",
@@ -15,7 +15,7 @@
   "scripts": {
     "demo": "node examples/search-demo.mjs",
     "start": "node apps/search-api/server.mjs",
-    "test": "node --test tests/*.test.mjs",
+    "test": "node --test",
     "ocr:setup": "node scripts/setup-ocr-python.mjs",
     "ocr:profiles": "node scripts/run-ocr-python.mjs -m nk_ocr_kit.cli profiles",
     "ocr:build-layout": "node scripts/run-ocr-python.mjs -m nk_ocr_kit.cli build-layout-dataset",
