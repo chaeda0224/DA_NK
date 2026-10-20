@@ -1,0 +1,50 @@
+{
+  "notice": "Original synthetic examples. Not newspaper quotations or research evidence.",
+  "document_count": 2,
+  "documents": [
+    {
+      "document_id": "example-001",
+      "dataset_id": "synthetic-demo",
+      "document_type": "example-note",
+      "title": "검색 예제: 로씨야 문헌",
+      "date": "2026-01-15",
+      "metadata": {
+        "page": 1,
+        "verification_status": "synthetic"
+      },
+      "source_refs": [
+        "example:example-001#page=1"
+      ],
+      "segments": [
+        {
+          "segment_id": "example-001-body",
+          "kind": "body",
+          "page": 1,
+          "text": "로씨야 표기와 러시아 검색어를 연결하는 직접 작성한 예제입니다."
+        }
+      ]
+    },
+    {
+      "document_id": "example-002",
+      "dataset_id": "synthetic-demo",
+      "document_type": "example-note",
+      "title": "검색 예제: 문헌 검토",
+      "date": "2026-02-10",
+      "metadata": {
+        "page": 2,
+        "verification_status": "synthetic"
+      },
+      "source_refs": [
+        "example:example-002#page=2"
+      ],
+      "segments": [
+        {
+          "segment_id": "example-002-body",
+          "kind": "body",
+          "page": 2,
+          "text": "원문 위치와 검토 기록을 보존하는 방법을 설명하는 직접 작성한 예제입니다."
+        }
+      ]
+    }
+  ]
+}
